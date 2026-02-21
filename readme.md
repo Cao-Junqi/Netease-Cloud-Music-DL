@@ -1,4 +1,3 @@
-```markdown
 # NetEase Car Music Downloader (网易云车机音乐自动化下载工具)
 
 基于 Python 编写的网易云音乐全自动化批量下载工作流 (Workflow)。专为车载信息娱乐系统 (Car Infotainment System) 打造，支持全量获取 VIP 权限内的 320k 高品质流媒体，并强制绑定同名歌词文件与完整的 ID3 元数据 (Metadata)。
@@ -22,7 +21,6 @@
 ```bash
 python -m pip install requests pyncm mutagen -i [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
 
-```
 
 | 依赖库 (Library) | 核心作用 (Purpose) |
 | --- | --- |
