@@ -18,7 +18,7 @@
 
 项目运行依赖 Python 3.8+ 环境，并在终端执行以下命令挂载第三方模块：
 
-```bash
+bash
 python -m pip install requests pyncm mutagen -i [https://pypi.tuna.tsinghua.edu.cn/simple](https://pypi.tuna.tsinghua.edu.cn/simple)
 
 
@@ -42,7 +42,7 @@ python -m pip install requests pyncm mutagen -i [https://pypi.tuna.tsinghua.edu.
 
 使用编辑器打开主程序脚本 `vip_car_music_dl.py`，修改底部入口的常量配置：
 
-```python
+python
 if __name__ == "__main__":
     # 1. 注入你抓取到的完整 Cookie 字符串
     VIP_COOKIE = "MUSIC_U=你的凭证; __csrf=你的凭证;"
@@ -56,7 +56,6 @@ if __name__ == "__main__":
         "12644048660"
     ]
 
-```
 
 ### 3. 执行工作流
 
